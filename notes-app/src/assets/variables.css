@@ -1,0 +1,11 @@
+:root {
+  --main-bg-color: rgb(24, 24, 24);
+  --item-bg-color: rgb(36, 36, 36);
+  --item-bg-hover-color: rgb(46, 46, 46);
+  --border-top-color: rgb(65, 65, 65);
+  --box-shadow-color: rgb(17, 17, 17);
+  --main-header-color: rgb(226, 226, 226);
+  --main-p-color: rgb(203, 203, 203);
+  --main-button-color: rgb(160, 160, 160);
+  --button-hover-color: rgb(189, 189, 189);
+}

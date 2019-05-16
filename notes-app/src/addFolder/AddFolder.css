@@ -1,0 +1,28 @@
+.form__add-folder {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 1rem;
+  height: 2.5rem;
+}
+
+.form__add-folder input {
+  min-width: 6rem;
+}
+
+.button__add-folder {
+  margin-left: 3px;
+  margin-right: 1rem;
+}
+
+.button__submit-folder {
+  color: var(--main-button-color);
+  border: 1px solid var(--main-button-color);
+  background-color: transparent;
+  font-size: 2rem;
+  line-height: 1.2rem;
+}
+
+.button__submit-folder:hover {
+  color: var(--button-hover-color);
+  border: 1px solid var(--button-hover-color);
+}

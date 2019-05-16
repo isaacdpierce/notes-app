@@ -1,0 +1,80 @@
+.add-note {
+  background-color: rgb(36, 36, 36);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  min-width: 330px;
+  border: 10px solid rgb(53, 53, 53);
+  border-radius: 6px;
+}
+
+.add-note__form {
+  background-color: var(--main-bg-color);
+  text-transform: uppercase;
+  display: flex;
+  color: rgb(216, 216, 216);
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3vw 5vw;
+  max-width: 90vw;
+  min-width: 310px;
+  box-shadow: 0px 1px 1px 1px rgb(17, 17, 17);
+}
+
+.add-note__form textarea {
+  height: 250px;
+}
+
+.add-note__form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.add-note__input {
+  font-size: 2rem;
+  min-width: 300px;
+  width: 50vw;
+  background-color: rgb(52, 52, 52);
+  color: rgb(216, 216, 216);
+  border: none;
+  padding: 1.5rem;
+}
+
+.add-note__select {
+  padding: 2rem 0;
+}
+
+.add-note__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-note__button,
+.add-note__link {
+  border: 1px solid var(--main-button-color);
+  color: var(--main-button-color);
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.add-note__button {
+  background-color: transparent;
+}
+
+.folder-select {
+  min-width: 150px;
+}
+
+.add-note__select {
+  text-align: center;
+}

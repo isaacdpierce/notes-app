@@ -1,0 +1,44 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
+  grid-template-rows: 20vh 1fr;
+}
+
+.notes {
+  grid-column: 4 / -2;
+  grid-row: 2 / -1;
+  min-height: 90vh;
+}
+
+.folders {
+  grid-column: 1 / span 3;
+  grid-row: 2 / -1;
+  padding-left: 6rem;
+}
+
+.App-header {
+  grid-row: 1;
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6rem;
+}
+
+.add-buttons {
+  display: flex;
+  max-width: 50rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+}
+
+.requiredField {
+  color: rgb(226, 99, 73);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}

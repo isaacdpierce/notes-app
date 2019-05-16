@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the complete form 1`] = `
+<Fragment>
+  <button
+    className="note__button button__add-folder "
+    onClick={[Function]}
+  >
+    Add Folder
+  </button>
+</Fragment>
+`;

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the complete form 1`] = `
+<section
+  className="add-note"
+>
+  <form
+    action="#"
+    className="add-note__form"
+  >
+    <legend>
+      Add a new note
+    </legend>
+    <div>
+      <label
+        htmlFor="name"
+      >
+        name 
+        <span
+          className="requiredField"
+        >
+          (required)
+        </span>
+      </label>
+      <input
+        aria-required="true"
+        className="add-note__input"
+        id="name"
+        onChange={[Function]}
+        type="text"
+      />
+      <ValidationError
+        hasError={true}
+        message=""
+      />
+    </div>
+    <div>
+      <label
+        htmlFor="content"
+      >
+        Content
+      </label>
+      <textarea
+        className="add-note__input"
+        id="content"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="add-note__select"
+    >
+      <label
+        htmlFor="folder-select"
+      >
+        Select a folder
+      </label>
+      <select
+        className="folder-select"
+        id="folder-select"
+        name="folder-select"
+        onChange={[Function]}
+      >
+        <option
+          value={null}
+        >
+          ...
+        </option>
+      </select>
+    </div>
+    <div
+      className="add-note__buttons"
+    >
+      <NavLink
+        className="add-note__link"
+        to="/"
+      >
+        Cancel
+      </NavLink>
+      <button
+        className="add-note__button"
+        onClick={[Function]}
+      >
+        Add note
+      </button>
+    </div>
+  </form>
+</section>
+`;

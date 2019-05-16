@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a list item with navLink 1`] = `
+<li
+  className="folders__item"
+>
+  <NavLink
+    activeClassName="folder-active"
+    className="folders__link"
+    to="/folder/1234"
+  >
+    Jimney Cricket
+  </NavLink>
+</li>
+`;

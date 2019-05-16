@@ -1,0 +1,30 @@
+.folders__link {
+  color: var(--main-p-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.folders__link:hover {
+  color: white;
+  background-color: var(--item-bg-hover-color);
+}
+
+.folders__item {
+  color: var(--main-header-color);
+  background-color: var(--item-bg-color);
+  margin-bottom: 1rem;
+  background-color: var(--item-bg-color);
+  border-top: 1px solid var(--border-top-color);
+  border-radius: 2px;
+  box-shadow: 0 3px 1px 1px var(--box-shadow-color);
+}
+
+.folder-active {
+  background-color: rgb(29, 29, 29);
+}
+
+.folder-active:hover {
+  background-color: rgb(29, 29, 29);
+}

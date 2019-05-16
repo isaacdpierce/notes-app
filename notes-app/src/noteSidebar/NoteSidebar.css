@@ -1,0 +1,12 @@
+.folder__name {
+  color: var(--main-p-color);
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.note-page__item {
+  margin-left: 4rem;
+  padding: 0 0 2rem 2rem;
+}

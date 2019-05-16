@@ -1,0 +1,8 @@
+.folders__link {
+  display: flex;
+  justify-content: space-between;
+  color: var(--main-p-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
